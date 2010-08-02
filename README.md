@@ -1,6 +1,7 @@
 # YARD-vim
 
-A VIM plugin which adds syntax highlighting to your YARD tags.
+A [VIM](http://www.vim.org/) plugin which adds syntax highlighting to your
+[YARD](http://yardoc.org/) tags.
 
 ## Install
 
