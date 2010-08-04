@@ -34,7 +34,7 @@ try
   syn match yardYieldTag "@yield\s" contained nextgroup=yardArgs skipwhite
   syn match yardReturnTag "@return" contained nextgroup=yardArgs skipwhite
   syn match yardRaiseTag "@raise" contained nextgroup=yardArgs skipwhite
-  syn match yardGenericTag +@\(since\|see\|todo\|api\)+ contained skipwhite
+  syn match yardGenericTag +@\(since\|see\|deprecated\|todo\|api\)+ contained skipwhite
 
   hi def link yardComment	Comment
   hi def link yardLink		Special
