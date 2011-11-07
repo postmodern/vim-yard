@@ -9,5 +9,5 @@ Copy `syntax/yard.vim` into `~/.vim/syntax`.
 
 Then add the following line to your `.vimrc`:
 
-    autocmd BufRead *.rb set syntax=yard
+    autocmd BufRead *.rb so syntax/yard.vim
 
