@@ -25,7 +25,6 @@ try
   syn region yardMultilineComment start="\%(\%(^\s*#.*\n\)\@<!\%(^\s*#.*\n\)\)\%(\(^\s*#.*\n\)\{1,}\)\@=" end="\%(^\s*#.*\n\)\@<=\%(^\s*#.*\n\)\%(^\s*#\)\@!" contains=yardComment transparent fold keepend
   syn region yardLink start="{" end="}" contained
   syn match yardType "\%(\%([.@$]\@<!\.\)\@<!\<\|::\)\_s*\zs\u\w*\%(\>\|::\)\@=\%(\s*(\)\@!" contained
-  syn match yardKeyword "\h\w*" contained
   syn match yardRespondsTo "#\h\w*" contained
   syn match yardArgsComma +,\s*+ nextgroup=yardType,yardRespondsTo,yardKeyword
   syn region yardArgs start="\[" end="\]" contains=yardType,yardRespondsTo,yardKeyword,yardArgsComma skipwhite
